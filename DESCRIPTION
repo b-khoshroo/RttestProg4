@@ -1,11 +1,12 @@
 Package: RttestProg4
 Type: Package
-Title: What the Package Does (Title Case)
+Title: It creates, prints, and plots an object of type Rttest
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Babak M. Khoshroo
+Maintainer: Babak M. Khoshroo <b.khoshroo@ou.edu>
+Description: It takes two sets of data and stores them as a data frame. 
+It applies a ttest to the data based on the variances of each variable.
+Imports: kableExtra, ggplot2, reshape2
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
